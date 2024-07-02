@@ -7,6 +7,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://bpe.fazenda.mg.gov.br/bpe/services/BPeConsulta</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://hbpe.fazenda.mg.gov.br/bpe/services/BPeRecepcaoEvento</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://hbpe.fazenda.mg.gov.br/bpe/services/BPeStatusServico</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://hbpe.fazenda.mg.gov.br/bpe/services/BPeRecepcaoTM</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://bpe.fazenda.mg.gov.br/portalbpe/sistema/qrcode.xhtml</BPeQrCode>
         </homologacao>
         <producao>
@@ -14,6 +15,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://bpe.fazenda.mg.gov.br/bpe/services/BPeConsulta</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://bpe.fazenda.mg.gov.br/bpe/services/BPeRecepcaoEvento</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://bpe.fazenda.mg.gov.br/bpe/services/BPeStatusServico</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://bpe.fazenda.mg.gov.br/bpe/services/BPeRecepcaoTM</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://bpe.fazenda.mg.gov.br/portalbpe/sistema/qrcode.xhtml</BPeQrCode>
         </producao>
     </UF>
@@ -24,6 +26,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://bpe.fazenda.mg.gov.br/bpe/services/BPeConsulta</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://homologacao.bpe.ms.gov.br/ws/BPeRecepcaoEvento</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://homologacao.bpe.ms.gov.br/ws/BPeStatusServico</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://homologacao.bpe.ms.gov.br/ws/BPeRecepcaoTM</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>http://www.dfe.ms.gov.br/bpe/qrcode</BPeQrCode>
         </homologacao>
         <producao>
@@ -31,6 +34,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://bpe.fazenda.ms.gov.br/ws/BPeConsulta</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://bpe.fazenda.ms.gov.br/ws/BPeRecepcaoEvento</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://bpe.fazenda.ms.gov.br/ws/BPeStatusServico</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://bpe.fazenda.ms.gov.br/ws/BPeRecepcaoTM</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>http://www.dfe.ms.gov.br/bpe/qrcode</BPeQrCode>
         </producao>
     </UF>
@@ -41,6 +45,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://homologacao.sefaz.mt.gov.br/bpe-ws/services/BPeConsulta</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://homologacao.sefaz.mt.gov.br/bpe-ws/services/BPeRecepcaoEvento</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://homologacao.sefaz.mt.gov.br/bpe-ws/services/BPeStatusServico</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://homologacao.sefaz.mt.gov.br/bpe-ws/services/BPeRecepcaoTM</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://homologacao.sefaz.mt.gov.br/BPe/qrcode</BPeQrCode>
         </homologacao>
         <producao>
@@ -48,6 +53,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://www.sefaz.mt.gov.br/bpe-ws/services/BPeConsulta</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://www.sefaz.mt.gov.br/bpe-ws/services/BPeRecepcaoEvento</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://www.sefaz.mt.gov.br/bpe-ws/services/BPeStatusServico</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://www.sefaz.mt.gov.br/bpe-ws/services/BPeRecepcaoTM</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://www.sefaz.mt.gov.br/BPe/qrcode</BPeQrCode>
         </producao>
     </UF>
@@ -67,6 +73,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://homologacao.bpe.fazenda.pr.gov.br/bpe/BPeConsulta</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://homologacao.bpe.fazenda.pr.gov.br/bpe/BPeRecepcaoEvento</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://homologacao.bpe.fazenda.pr.gov.br/bpe/BPeStatusServico</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://homologacao.bpe.fazenda.pr.gov.br/bpe/BPeRecepcaoTM</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://www.fazenda.pr.gov.br/bpe/qrcode</BPeQrCode>
         </homologacao>
         <producao>
@@ -74,24 +81,8 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://bpe.fazenda.pr.gov.br/bpe/BPeConsulta</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://bpe.fazenda.pr.gov.br/bpe/BPeRecepcaoEvento</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://bpe.fazenda.pr.gov.br/bpe/BPeStatusServico</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://bpe.fazenda.pr.gov.br/bpe/BPeRecepcaoTM</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://www.fazenda.pr.gov.br/bpe/qrcode</BPeQrCode>
-        </producao>
-    </UF>
-    <UF>
-        <sigla>RS</sigla>
-        <homologacao>
-            <BPeRecepcao method='bpeRecepcao' operation='BPeRecepcao' version='1.00'>https://bpe-homologacao.svrs.rs.gov.br/ws/bpeRecepcao/bpeRecepcao.asmx</BPeRecepcao>
-            <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>ttps://bpe-homologacao.svrs.rs.gov.br/ws/bpeConsulta/bpeConsulta.asmx</BPeConsulta>
-            <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://bpe-homologacao.svrs.rs.gov.br/ws/bpeRecepcaoEvento/bpeRecepcaoEvento.asmx</BPeRecepcaoEvento>
-            <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://bpe-homologacao.svrs.rs.gov.br/ws/bpeStatusServico/bpeStatusServico.asmx</BPeStatusServico>
-            <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://dfe-portal.svrs.rs.gov.br/bpe/qrCode</BPeQrCode>
-        </homologacao>
-        <producao>
-            <BPeRecepcao method='bpeRecepcao' operation='BPeRecepcao' version='1.00'>https://bpe.svrs.rs.gov.br/ws/bpeRecepcao/bpeRecepcao.asmx</BPeRecepcao>
-            <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://bpe.svrs.rs.gov.br/ws/bpeConsulta/bpeConsulta.asmx</BPeConsulta>
-            <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://bpe.svrs.rs.gov.br/ws/bpeRecepcaoEvento/bpeRecepcaoEvento.asmx</BPeRecepcaoEvento>
-            <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://bpe.svrs.rs.gov.br/ws/bpeStatusServico/bpeStatusServico.asmx</BPeStatusServico>
-            <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://dfe-portal.svrs.rs.gov.br/bpe/qrCode</BPeQrCode>
         </producao>
     </UF>
     <UF>
@@ -101,6 +92,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://homologacao.bpe.fazenda.sp.gov.br/BPeWeb/services/BPeConsulta.asmx</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://homologacao.bpe.fazenda.sp.gov.br/BPeWeb/services/BPeRecepcaoEvento.asmx</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://homologacao.bpe.fazenda.sp.gov.br/BPeWeb/services/BPeStatusServico.asmx</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://homologacao.bpe.fazenda.sp.gov.br/BPeWeb/services/BPeRecepcaoTM.asmx</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://homologacao.bpe.fazenda.sp.gov.br/BPe/qrcode</BPeQrCode>
         </homologacao>
         <producao>
@@ -108,6 +100,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='bpeConsultaBP' version='1.00'>https://bpe.fazenda.sp.gov.br/BPeWeb/services/BPeConsulta.asmx</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://bpe.fazenda.sp.gov.br/BPeWeb/services/BPeRecepcaoEvento.asmx</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://bpe.fazenda.sp.gov.br/BPeWeb/services/BPeStatusServico.asmx</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://bpe.fazenda.sp.gov.br/BPeWeb/services/BPeRecepcaoTM.asmx</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://bpe.fazenda.sp.gov.br/BPe/qrcode</BPeQrCode>
         </producao>
     </UF>
@@ -118,6 +111,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://bpe-homologacao.svrs.rs.gov.br/ws/bpeConsulta/bpeConsulta.asmx</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://bpe-homologacao.svrs.rs.gov.br/ws/bpeRecepcaoEvento/bpeRecepcaoEvento.asmx</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://bpe-homologacao.svrs.rs.gov.br/ws/bpeStatusServico/bpeStatusServico.asmx</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://bpe-homologacao.svrs.rs.gov.br/ws/bpeRecepcao/bpeRecepcaoTM.asmx</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://dfe-portal.svrs.rs.gov.br/bpe/qrCode</BPeQrCode>
         </homologacao>
         <producao>
@@ -125,6 +119,7 @@
             <BPeConsulta method='bpeConsultaBP' operation='BPeConsulta' version='1.00'>https://bpe.svrs.rs.gov.br/ws/bpeConsulta/bpeConsulta.asmx</BPeConsulta>
             <BPeRecepcaoEvento method='bpeRecepcaoEvento' operation='BPeRecepcaoEvento' version='1.00'>https://bpe.svrs.rs.gov.br/ws/bpeRecepcaoEvento/bpeRecepcaoEvento.asmx</BPeRecepcaoEvento>
             <BPeStatusServico method='bpeStatusServicoBP' operation='BPeStatusServico' version='1.00'>https://bpe.svrs.rs.gov.br/ws/bpeStatusServico/bpeStatusServico.asmx</BPeStatusServico>
+            <BPeRecepcaoTM method='bpeRecepcaoTM' operation='BPeRecepcaoTM' version='1.00'>https://bpe.svrs.rs.gov.br/ws/bpeRecepcao/bpeRecepcaoTM.asmx</BPeRecepcaoTM>
             <BPeQrCode method='bpeQrCode' operation='BPeQrCode' version='1.00'>https://dfe-portal.svrs.rs.gov.br/bpe/qrCode</BPeQrCode>
         </producao>
     </UF>
