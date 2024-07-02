@@ -15,6 +15,18 @@ API para geração e comunicação das BPe com as SEFAZ autorizadoras
 [![Forks][ico-forks]][link-forks]
 [![Stars][ico-stars]][link-stars]
 
+## GitHUB
+
+git clone <meu repositório>
+
+git remote add upstream git@github.com:nfephp-org/sped-bpe.git
+
+git fetch upstream
+
+git merge upstream/master
+
+git push
+
 ## Estados atendidos
 
 - Todos exceto SC (Santa Catarina)
