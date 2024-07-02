@@ -1,0 +1,5 @@
+<consSitBPe versao="string" xmlns:bpe="http://www.portalfiscal.inf.br/bpe">
+  <tpAmb>2</tpAmb>
+  <xServ>string</xServ>
+  <chBPe>string</chBPe>
+</consSitBPe>

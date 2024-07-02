@@ -1,0 +1,140 @@
+<retConsSitBPe versao="string" xmlns:bpe="http://www.portalfiscal.inf.br/bpe" xmlns:xd="http://www.w3.org/2000/09/xmldsig#">
+  <tpAmb>2</tpAmb>
+  <verAplic>string</verAplic>
+  <cStat>string</cStat>
+  <xMotivo>string</xMotivo>
+  <cUF>12</cUF>
+  <!--Zero or more repetitions:-->
+  <protBPe versao="string">
+    <infProt Id="string">
+      <tpAmb>1</tpAmb>
+      <verAplic>string</verAplic>
+      <chBPe>string</chBPe>
+      <dhRecbto>string</dhRecbto>
+      <!--Optional:-->
+      <nProt>string</nProt>
+      <!--Optional:-->
+      <digVal>c29ub3Jhcw==</digVal>
+      <cStat>string</cStat>
+      <xMotivo>string</xMotivo>
+    </infProt>
+    <!--Optional:-->
+    <infFisco>
+      <cMsg>string</cMsg>
+      <xMsg>string</xMsg>
+    </infFisco>
+    <!--Optional:-->
+    <xd:Signature Id="string">
+      <xd:SignedInfo Id="string">
+        <xd:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <xd:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <xd:Reference Id="string" URI="http://www.any.org/ventos/verrantque" Type="http://www.sample.org/turbine/circum">
+          <xd:Transforms>
+            <xd:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315">
+              <xd:XPath>string</xd:XPath>
+            </xd:Transform>
+            <xd:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature">
+              <xd:XPath>string</xd:XPath>
+            </xd:Transform>
+          </xd:Transforms>
+          <xd:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <xd:DigestValue>ZnJlbXVudA==</xd:DigestValue>
+        </xd:Reference>
+      </xd:SignedInfo>
+      <xd:SignatureValue Id="string">Zm9lZGVyZQ==</xd:SignatureValue>
+      <xd:KeyInfo Id="string">
+        <xd:X509Data>
+          <xd:X509Certificate>ZmVyYW50</xd:X509Certificate>
+        </xd:X509Data>
+      </xd:KeyInfo>
+    </xd:Signature>
+  </protBPe>
+  <!--Zero or more repetitions:-->
+  <procEventoBPe versao="string" ipTransmissor="string" nPortaCon="string" dhConexao="string">
+    <eventoBPe versao="string">
+      <infEvento Id="string">
+        <cOrgao>27</cOrgao>
+        <tpAmb>2</tpAmb>
+        <CNPJ>string</CNPJ>
+        <chBPe>string</chBPe>
+        <dhEvento>string</dhEvento>
+        <tpEvento>string</tpEvento>
+        <nSeqEvento>string</nSeqEvento>
+        <detEvento versaoEvento="string">
+          <!--You may enter ANY elements at this point-->
+          <AnyElement/>
+        </detEvento>
+      </infEvento>
+      <xd:Signature Id="string">
+        <xd:SignedInfo Id="string">
+          <xd:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          <xd:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+          <xd:Reference Id="string" URI="http://www.test.com/iovis/flammato" Type="http://www.sample.com/bella/nubibus">
+            <xd:Transforms>
+              <xd:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315">
+                <xd:XPath>string</xd:XPath>
+              </xd:Transform>
+              <xd:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature">
+                <xd:XPath>string</xd:XPath>
+              </xd:Transform>
+            </xd:Transforms>
+            <xd:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+            <xd:DigestValue>aG9j</xd:DigestValue>
+          </xd:Reference>
+        </xd:SignedInfo>
+        <xd:SignatureValue Id="string">cmFwaWR1bQ==</xd:SignatureValue>
+        <xd:KeyInfo Id="string">
+          <xd:X509Data>
+            <xd:X509Certificate>YWM=</xd:X509Certificate>
+          </xd:X509Data>
+        </xd:KeyInfo>
+      </xd:Signature>
+    </eventoBPe>
+    <retEventoBPe versao="string">
+      <infEvento Id="string">
+        <tpAmb>2</tpAmb>
+        <verAplic>string</verAplic>
+        <cOrgao>29</cOrgao>
+        <cStat>string</cStat>
+        <xMotivo>string</xMotivo>
+        <!--Optional:-->
+        <chBPe>string</chBPe>
+        <!--Optional:-->
+        <tpEvento>string</tpEvento>
+        <!--Optional:-->
+        <xEvento>string</xEvento>
+        <!--Optional:-->
+        <nSeqEvento>string</nSeqEvento>
+        <!--Optional:-->
+        <dhRegEvento>string</dhRegEvento>
+        <!--Optional:-->
+        <nProt>string</nProt>
+      </infEvento>
+      <!--Optional:-->
+      <xd:Signature Id="string">
+        <xd:SignedInfo Id="string">
+          <xd:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+          <xd:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+          <xd:Reference Id="string" URI="http://www.company.org/coniunx/praeterea" Type="http://www.any.edu/circum/imperio">
+            <xd:Transforms>
+              <xd:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315">
+                <xd:XPath>string</xd:XPath>
+              </xd:Transform>
+              <xd:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature">
+                <xd:XPath>string</xd:XPath>
+              </xd:Transform>
+            </xd:Transforms>
+            <xd:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+            <xd:DigestValue>ZXQ=</xd:DigestValue>
+          </xd:Reference>
+        </xd:SignedInfo>
+        <xd:SignatureValue Id="string">YWM=</xd:SignatureValue>
+        <xd:KeyInfo Id="string">
+          <xd:X509Data>
+            <xd:X509Certificate>ZmV0YQ==</xd:X509Certificate>
+          </xd:X509Data>
+        </xd:KeyInfo>
+      </xd:Signature>
+    </retEventoBPe>
+  </procEventoBPe>
+</retConsSitBPe>

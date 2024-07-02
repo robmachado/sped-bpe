@@ -1,0 +1,5 @@
+<evNaoEmbBPe xmlns:bpe="http://www.portalfiscal.inf.br/bpe">
+  <descEvento>Nao Embarque</descEvento>
+  <nProt>string</nProt>
+  <xJust>stringstringstringstring</xJust>
+</evNaoEmbBPe>

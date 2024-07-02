@@ -8,7 +8,7 @@
         "CE": "SVRS",
         "DF": "SVRS",
         "ES": "SVRS",
-        "GO": "GO",
+        "GO": "SVRS",
         "MA": "SVRS",
         "MG": "MG",
         "MS": "MS",
@@ -22,11 +22,11 @@
         "RN": "SVRS",
         "RO": "SVRS",
         "RR": "SVRS",
-        "RS": "RS",
-        "SC": "",
+        "RS": "SVRS",
+        "SC": "SVRS",
         "SE": "SVRS",
         "SP": "SP",
         "TO": "SVRS",
         "SVRS": "SVRS"
     }
-}   
+}
