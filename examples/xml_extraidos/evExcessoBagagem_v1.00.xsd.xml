@@ -1,0 +1,6 @@
+<evExcessoBagagem xmlns:bpe="http://www.portalfiscal.inf.br/bpe">
+  <descEvento>Excesso Bagagem</descEvento>
+  <nProt>string</nProt>
+  <qBagagem>string</qBagagem>
+  <vTotBag>string</vTotBag>
+</evExcessoBagagem>

@@ -1,0 +1,5 @@
+<evAlteracaoPoltrona xmlns:bpe="http://www.portalfiscal.inf.br/bpe">
+  <descEvento>Alteracao Poltrona</descEvento>
+  <nProt>string</nProt>
+  <poltrona>str</poltrona>
+</evAlteracaoPoltrona>

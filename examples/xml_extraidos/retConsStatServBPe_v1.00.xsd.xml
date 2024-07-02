@@ -1,0 +1,14 @@
+<retConsStatServBPe versao="string" xmlns:bpe="http://www.portalfiscal.inf.br/bpe">
+  <tpAmb>2</tpAmb>
+  <verAplic>string</verAplic>
+  <cStat>string</cStat>
+  <xMotivo>string</xMotivo>
+  <cUF>12</cUF>
+  <dhRecbto>string</dhRecbto>
+  <!--Optional:-->
+  <tMed>100</tMed>
+  <!--Optional:-->
+  <dhRetorno>string</dhRetorno>
+  <!--Optional:-->
+  <xObs>string</xObs>
+</retConsStatServBPe>

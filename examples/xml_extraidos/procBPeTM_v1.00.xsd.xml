@@ -1,0 +1,220 @@
+<bpeTMProc versao="string" ipTransmissor="string" nPortaCon="string" dhConexao="string" xmlns:bpe="http://www.portalfiscal.inf.br/bpe" xmlns:xd="http://www.w3.org/2000/09/xmldsig#">
+  <BPeTM>
+    <infBPe versao="string" Id="string">
+      <ide>
+        <cUF>51</cUF>
+        <tpAmb>1</tpAmb>
+        <mod>63</mod>
+        <serie>string</serie>
+        <nBP>string</nBP>
+        <cBP>string</cBP>
+        <cDV>string</cDV>
+        <modal>1</modal>
+        <dhEmi>string</dhEmi>
+        <dCompet>string</dCompet>
+        <tpEmis>1</tpEmis>
+        <verProc>string</verProc>
+        <tpBPe>4</tpBPe>
+        <CFOP>string</CFOP>
+        <dhCont>string</dhCont>
+        <xJust>stringstringstringstring</xJust>
+      </ide>
+      <emit>
+        <CNPJ>string</CNPJ>
+        <IE>string</IE>
+        <!--Optional:-->
+        <IEST>string</IEST>
+        <xNome>string</xNome>
+        <!--Optional:-->
+        <xFant>string</xFant>
+        <IM>string</IM>
+        <CNAE>string</CNAE>
+        <CRT>3</CRT>
+        <enderEmit>
+          <xLgr>string</xLgr>
+          <nro>string</nro>
+          <!--Optional:-->
+          <xCpl>string</xCpl>
+          <xBairro>string</xBairro>
+          <cMun>string</cMun>
+          <xMun>string</xMun>
+          <!--Optional:-->
+          <CEP>string</CEP>
+          <UF>MG</UF>
+          <!--Optional:-->
+          <fone>string</fone>
+          <!--Optional:-->
+          <email>string</email>
+        </enderEmit>
+        <!--Optional:-->
+        <TAR>string</TAR>
+      </emit>
+      <!--1 to 99 repetitions:-->
+      <detBPeTM idEqpCont="string">
+        <UFIniViagem>AL</UFIniViagem>
+        <!--Optional:-->
+        <UFFimViagem>MG</UFFimViagem>
+        <!--Optional:-->
+        <placa>string</placa>
+        <!--Optional:-->
+        <prefixo>string</prefixo>
+        <!--1 to 990 repetitions:-->
+        <det nViagem="string">
+          <cMunIni>string</cMunIni>
+          <!--Optional:-->
+          <cMunFim>string</cMunFim>
+          <nContInicio>string</nContInicio>
+          <nContFim>string</nContFim>
+          <qPass>string</qPass>
+          <vBP>string</vBP>
+          <imp>
+            <ICMS>
+              <!--You have a CHOICE of the next 5 items at this level-->
+              <ICMS00>
+                <CST>00</CST>
+                <vBC>string</vBC>
+                <pICMS>string</pICMS>
+                <vICMS>string</vICMS>
+              </ICMS00>
+              <ICMS20>
+                <CST>20</CST>
+                <pRedBC>string</pRedBC>
+                <vBC>string</vBC>
+                <pICMS>string</pICMS>
+                <vICMS>string</vICMS>
+                <vICMSDeson>string</vICMSDeson>
+                <cBenef>string</cBenef>
+              </ICMS20>
+              <ICMS45>
+                <CST>41</CST>
+                <vICMSDeson>string</vICMSDeson>
+                <cBenef>string</cBenef>
+              </ICMS45>
+              <ICMS90>
+                <CST>90</CST>
+                <!--Optional:-->
+                <pRedBC>string</pRedBC>
+                <vBC>string</vBC>
+                <pICMS>string</pICMS>
+                <vICMS>string</vICMS>
+                <!--Optional:-->
+                <vCred>string</vCred>
+                <vICMSDeson>string</vICMSDeson>
+                <cBenef>string</cBenef>
+              </ICMS90>
+              <ICMSSN>
+                <CST>90</CST>
+                <indSN>1</indSN>
+              </ICMSSN>
+            </ICMS>
+            <!--Optional:-->
+            <infAdFisco>string</infAdFisco>
+          </imp>
+          <!--1 or more repetitions:-->
+          <Comp>
+            <xNome>string</xNome>
+            <qComp>string</qComp>
+          </Comp>
+        </det>
+      </detBPeTM>
+      <total>
+        <qPass>string</qPass>
+        <vBP>string</vBP>
+        <ICMSTot>
+          <vBC>string</vBC>
+          <vICMS>string</vICMS>
+        </ICMSTot>
+      </total>
+      <!--0 to 10 repetitions:-->
+      <autXML>
+        <!--You have a CHOICE of the next 2 items at this level-->
+        <CNPJ>string</CNPJ>
+        <CPF>string</CPF>
+      </autXML>
+      <!--Optional:-->
+      <infAdic>
+        <!--Optional:-->
+        <infAdFisco>string</infAdFisco>
+        <!--Optional:-->
+        <infCpl>string</infCpl>
+      </infAdic>
+      <!--Optional:-->
+      <infRespTec>
+        <CNPJ>string</CNPJ>
+        <xContato>string</xContato>
+        <email>string</email>
+        <fone>string</fone>
+        <idCSRT>string</idCSRT>
+        <hashCSRT>ZmVyYW50ZmVyYW50ZmVyYW50ZmU=</hashCSRT>
+      </infRespTec>
+    </infBPe>
+    <xd:Signature Id="string">
+      <xd:SignedInfo Id="string">
+        <xd:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <xd:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <xd:Reference Id="string" URI="http://www.corp.org/et/turbine" Type="http://www.any.org/speluncis/profundum">
+          <xd:Transforms>
+            <xd:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature">
+              <xd:XPath>string</xd:XPath>
+            </xd:Transform>
+            <xd:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315">
+              <xd:XPath>string</xd:XPath>
+            </xd:Transform>
+          </xd:Transforms>
+          <xd:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <xd:DigestValue>ZmxhbW1hcw==</xd:DigestValue>
+        </xd:Reference>
+      </xd:SignedInfo>
+      <xd:SignatureValue Id="string">YWM=</xd:SignatureValue>
+      <xd:KeyInfo Id="string">
+        <xd:X509Data>
+          <xd:X509Certificate>aG9j</xd:X509Certificate>
+        </xd:X509Data>
+      </xd:KeyInfo>
+    </xd:Signature>
+  </BPeTM>
+  <protBPe versao="string">
+    <infProt Id="string">
+      <tpAmb>2</tpAmb>
+      <verAplic>string</verAplic>
+      <chBPe>string</chBPe>
+      <dhRecbto>string</dhRecbto>
+      <!--Optional:-->
+      <nProt>string</nProt>
+      <!--Optional:-->
+      <digVal>YWM=</digVal>
+      <cStat>string</cStat>
+      <xMotivo>string</xMotivo>
+    </infProt>
+    <!--Optional:-->
+    <infFisco>
+      <cMsg>string</cMsg>
+      <xMsg>string</xMsg>
+    </infFisco>
+    <!--Optional:-->
+    <xd:Signature Id="string">
+      <xd:SignedInfo Id="string">
+        <xd:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        <xd:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <xd:Reference Id="string" URI="http://www.my.org/circum/aris" Type="http://www.sample.org/arce/claustra">
+          <xd:Transforms>
+            <xd:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315">
+              <xd:XPath>string</xd:XPath>
+            </xd:Transform>
+            <xd:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature">
+              <xd:XPath>string</xd:XPath>
+            </xd:Transform>
+          </xd:Transforms>
+          <xd:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+          <xd:DigestValue>Y2VydG8=</xd:DigestValue>
+        </xd:Reference>
+      </xd:SignedInfo>
+      <xd:SignatureValue Id="string">cXVpc3F1YW0=</xd:SignatureValue>
+      <xd:KeyInfo Id="string">
+        <xd:X509Data>
+          <xd:X509Certificate>ZXQ=</xd:X509Certificate>
+        </xd:X509Data>
+      </xd:KeyInfo>
+    </xd:Signature>
+  </protBPe>
+</bpeTMProc>
